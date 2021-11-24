@@ -23,7 +23,7 @@ spec:
             path: /var/run/docker.sock
       containers:
       - name: k8s-cleanup
-        image: jonathanbaraldi/k8s-cleanup
+        image: ralphbaesso/k8s-cleanup
         imagePullPolicy: Always
         resources:
           requests:
