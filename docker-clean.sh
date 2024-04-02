@@ -1,5 +1,8 @@
 #!/bin/bash
 
+sleep 30
+echo 'initializing cleaning'
+
 while true; do
 	
   # https://docs.docker.com/engine/reference/commandline/image_prune/
